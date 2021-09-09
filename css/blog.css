@@ -1,0 +1,28 @@
+.blog{
+    border: 20px solid green;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    color: aqua;
+    width: 150vh;
+}
+.blog h1{
+ text-align: center;
+}
+.blog h4{
+    text-align: center;
+    border: 10px solid aqua;
+
+}
+.article{
+    border-bottom: 10px solid aqua;
+    border: 5vh solid rgba(0, 105, 167, 0.644);
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

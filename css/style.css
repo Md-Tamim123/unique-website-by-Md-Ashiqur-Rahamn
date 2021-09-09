@@ -1,0 +1,259 @@
+
+/* media query start */
+
+@media only screen and (max-width: 82066px) {
+     
+     #about{
+        display: flex;
+        flex-direction: column;
+     }
+     .header{
+         position: unset;
+     }
+     .header h1{
+         position: unset;
+         display: none;
+     }
+     .aqua{
+         display: none;
+     }
+     #about{
+         flex-direction: column;
+     }
+
+  }
+
+  @media only screen and (max-width: 640px) {
+
+
+.sp{
+    display: flex;
+    flex-direction: column;
+}
+       #about img{
+           display: none;
+       }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* midea query end */
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* taken from w3schools start */
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: aqua;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #004aac;
+  padding: 20px;
+  color: aqua;
+}
+
+
+/* taken by w3schools end */
+
+.ml{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+
+
+.header{
+    display: flex;
+    position: fixed;
+
+}
+.links a{
+    text-decoration: none;
+    padding: 20px;
+    color: aqua;
+    display: flex;
+    background: #000;
+    flex-direction: column;
+    width: 10vh;
+    border: 10px solid aqua;
+
+    
+}
+.links a:hover{
+    background: rgb(2, 194, 194);
+    color: #000;
+ 
+}
+.header h1{
+    display: inline;
+text-align: center;
+position: relative;
+left: 1050px;
+
+}
+.aqua{
+    
+    color: aqua;
+    display: block;
+    margin: auto;
+    border: 2px solid aqua;
+    border-right-color: aqua;
+    border-top-color: aqua;
+    border-left: transparent;
+    border-bottom: transparent;
+
+}
+body{
+    /* height: 100vh; */
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(9, 102, 163));
+}
+.hero{
+    display: block;
+    margin: auto;
+
+}
+.hero h1{
+    color: aqua;
+    text-align: center;
+}
+.h1{
+    color: aqua;
+    text-align: center;
+}
+.me{
+    display: block;
+    margin: auto;
+    border-bottom: 10px solid aqua;
+}
+footer{
+    background: #000;
+    text-align: center;
+    color: aqua;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+}
+#about img{
+   
+}
+.pr{
+    border: 5px solid black;
+}
+.h4{
+    background: #000;
+    color: aqua;
+    font-size: large;
+    border: 10px solid aqua;
+    border-radius: 20px;
+    
+
+}
+.l{
+
+}
+.ab{
+    color: aqua;
+    text-align: center;
+    border: 1.5vh solid aqua;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+.about{
+    border-bottom: 2vh solid aqua;
+
+}
