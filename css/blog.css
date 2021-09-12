@@ -4,7 +4,7 @@
     display: block;
     margin: auto;
     color: aqua;
-    width: 150vh;
+    /* width: 150vh; */
 }
 .blog h1{
  text-align: center;
